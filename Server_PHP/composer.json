@@ -1,0 +1,17 @@
+{
+    "name": "rentopia/backend",
+    "description": "PHP Backend for Rentopia",
+    "require": {
+        "mongodb/mongodb": "^2.0",
+        "vlucas/phpdotenv": "^5.5",
+        "firebase/php-jwt": "^6.8",
+        "razorpay/razorpay": "^2.9",
+        "cloudinary/cloudinary_php": "^2.0",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rentopia\\": "./"
+        }
+    }
+}
